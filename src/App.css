@@ -1,0 +1,62 @@
+.App {
+  width: 1093px;
+  margin: auto;
+  height: 100%;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+table {
+
+/* height: 320px; */
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  width: 175px;
+  text-transform: capitalize;
+  padding: 8px 10px;
+  border-bottom: 1px solid #E1E1E1;
+  border: 1px solid #E1E1E1;
+  color: #383838;
+  font-weight: 600;
+}
+
+td {
+  color: #383838;
+  padding: 8px 10px;
+  border: 1px solid #E1E1E1;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+.up-down {
+  height: 12.875px;
+  width: 15.75px;
+  margin-left: 10px;
+}
+
+td.Img-Content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 10px;
+  gap: 10px;
+}
+
+.email {
+  width: 220px;
+}
+
+a {
+  color: #0071CC;
+}
+
+img.profile {
+  width: 25px;
+  height: 25px;
+}

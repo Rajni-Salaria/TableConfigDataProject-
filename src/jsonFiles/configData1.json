@@ -1,0 +1,17 @@
+ 
+[
+        {
+                "colName" : "person",
+                "sortVisible" : true
+        },
+        {
+                "colName" : "email",
+                "sortVisible" : false
+        },
+        {
+                "colName" :  "role",
+                "sortVisible" : false
+        }
+
+
+]
