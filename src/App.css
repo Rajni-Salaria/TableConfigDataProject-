@@ -1,38 +1,62 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 1093px;
+  margin: auto;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+
+/* height: 320px; */
+  border-collapse: collapse;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th {
+  text-align: left;
+  width: 175px;
+  text-transform: capitalize;
+  padding: 8px 10px;
+  border-bottom: 1px solid #E1E1E1;
+  border: 1px solid #E1E1E1;
+  color: #383838;
+  font-weight: 600;
+}
+
+td {
+  color: #383838;
+  padding: 8px 10px;
+  border: 1px solid #E1E1E1;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+.up-down {
+  height: 12.875px;
+  width: 15.75px;
+  margin-left: 10px;
+}
+
+td.Img-Content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 10px;
+  gap: 10px;
+}
+
+.email {
+  width: 220px;
+}
+
+a {
+  color: #0071CC;
+}
+
+img.profile {
+  width: 25px;
+  height: 25px;
 }
