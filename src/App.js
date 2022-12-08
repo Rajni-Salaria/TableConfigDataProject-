@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import TableDataComponents from "./components/tableData";   
 import TableData from "./jsonFiles/Data.json";
@@ -7,9 +6,9 @@ import configData2 from "./jsonFiles/configData2.json";
 import configData3 from "./jsonFiles/configData3.json";
 import mainTableConfig from "./jsonFiles/mainTableConfig.json";
 
+//comment
 
 function App() {
-  console.log()
   return (
     <div className = "App">
       <TableDataComponents TableData = {TableData} configData = {mainTableConfig}/>

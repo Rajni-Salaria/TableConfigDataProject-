@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 
 function TableDataComponents(props) {
-    console.log(props)
+
     // destructuring
     const { TableData, configData } = props;
 
@@ -20,6 +20,11 @@ function TableDataComponents(props) {
             // to get the name key inside the person object
             if (sorting.key === "person") {
                 return a.person.name.localeCompare(b.person.name)
+            }
+            else if (sorting.key === "joiningDate") {
+                let date = a[sorting.key].split('/').reverse().join('/');
+                let date2 = b[sorting.key].split('/').reverse().join('/');
+                return date.localeCompare(date2);
             }
             return a[sorting.key].localeCompare(b[sorting.key]);
         });
@@ -76,7 +81,7 @@ function TableDataComponents(props) {
                                             ) :
                                             ele.colName === "email" ?
                                                 (<td
-                                                    key={index}>
+                                                    key={index} className="email">
                                                     {/* Email link attached */}
                                                     <a href="#"> {dataEle.email} </a>
                                                 </td>)
